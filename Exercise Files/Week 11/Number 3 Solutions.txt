@@ -1,0 +1,16 @@
+('Solutions for 3a are:', array([[3.],
+       [1.]]))
+('Solutions for 3b are:', array([[ 2.],
+       [-1.]]))
+('Solutions for 3c are:', array([[ 1.],
+       [-1.],
+       [ 2.]]))
+('Solutions for 3d are:', array([[-1.],
+       [ 0.],
+       [ 5.]]))
+('Solutions for 3e are:', array([[ 3.],
+       [20.],
+       [ 9.]]))
+('Solutions for 3f are:', array([[ 5.8],
+       [ 5.2],
+       [-0.6]]))
