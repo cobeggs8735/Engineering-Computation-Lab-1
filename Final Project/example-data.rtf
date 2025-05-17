@@ -1,0 +1,487 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue11;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c0;}
+\margl1440\margr1440\vieww27800\viewh18000\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      0 PAGE =       1  \
+\
+ This source code includes the following optional modules:\
+      1 - CASMO-4E (CASMO-4 Extended Version).\
+      2 - MxN extended multi-assembly module present.\
+      3 - Hexagonal module present.\
+      4 - CLU/AGR module present.\
+      5 - PSC Tiff/PostScript capability active.\
+      6 - Azimuthal depletion model present.\
+      7 - FSS/FSC model present.\
+      8 - Extra cards present.\
+      9 - Pn higher order scattering model present.\
+     10 - DIA Rotated water hole model present.\
+     11 - CCR Extended C.R. model present.\
+\
+       LIST OF USER FILES\
+       ******************\
+ EXECUTABLE FILE               /software/studsvik/1.00.02/libexec/studsvik/casmo4e/casmo4e-u1.00.02/casmo4e.exe\
+ NEUTRON DATA LIBRARY FILE     /software/studsvik/1.00.02/lib/studsvik/casmo4e/e60200\
+ GAMMA DATA LIBRARY FILE       /software/studsvik/1.00.02/lib/studsvik/casmo4e/galb418\
+ INPUT FILE                    hmk1_p2_100.inp\
+ OUTPUT LIST FILE              ./hmk1_p2_100.out\
+ CARD IMAGE FILE (SEG1)        ./hmk1_p2_100.cax\
+\
+       LIST OF CASMO-4E INPUT CARDS (120 COLS MAX.)\
+       ********************************************\
+\
+\
+                1         2         3         4         5         6         7         8         9         0         1         2\
+       123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890\
+       TTL * EX PIN.1\
+       TFU = 800 TMO = 577 BOR = 0 *this is a comment\
+       FUE 1 10.41/4.0\
+       PIC 0.41275 0.4851 0.564190\
+       PRE 155\
+       STA\
+       END\
+\
+       LIST OF CASMO-4E INPUT CARDS COMPLETE\
+\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      1 PAGE =       2  \
+ * \
+ * BURNUP =     0.000                                                                                 \
+ TTL * EX PIN.1                                                                                                            INPUT\
+ TFU = 800 TMO = 577 BOR = 0 *this is a comment                                                                            INPUT\
+ FUE 1 10.41/4.0                                                                                                           INPUT\
+ PIN 1                                                                                                                     INPUT\
+  0.41275 0.48510/                                                                                                         INPUT\
+   '1  '  'CAN'/                                                                                                           INPUT\
+       1      1/                                                                                                           INPUT\
+ PWR 2     1.0000,,,,,,8                                                                                                   INPUT\
+ * PIC translated data                                                                                                     INPUT\
+ PRE 155                                                                                                                   INPUT\
+ STA                                                                                                                       INPUT\
+ [WARNING] IN EDTFTD              Non-default neutron data library is attached.\
+\
+     1 WARNING(S) FOUND.\
+\
+ EXECUTION CONTINUED.\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      1 PAGE =       3  \
+ *  EX PIN.1\
+ * BURNUP =     0.000 V= 0.0  TF= 800.0  TM= 577.0  BOR=   0.0                                        \
+\
+ FILE TRAIL DATA    \
+ ***************\
+  EXECUTION     CASMO-4E  1.00.02  2012/05/08  2018/09/10  08:13:19    SSP       P        \
+  NEUTRON DATA  4002      40314  70\
+            E6LIB, UPDATE D, VERSION=E6.02.00-040314                                        \
+                CASLIB       4.02  04/03/14    04/03/12    13:45:59    WINDOWS-NT\
+  GAMMA DATA       4  85/10/21   18\
+             GAMLIB, UPDATE A, 18 GROUPS                                                    \
+                CASLIB       1.50  94/09/29    95/10/18    16:25:57    SUN-IPC   \
+\
+ INPUT ECHO\
+ **********\
+ COMP   DENSITY TH.EXP.     TEMP   WEIGHT   TOT WT%  NUCLIDE WT%\
+        (G/CM3) COEFF.       (K)   (G/CM)\
+ SPA     6.511   7.000E-06  577.0    0.000  100.000  Zr-2  = 1.00000E+02\
+ COO     0.718   0.000E+00  577.0    0.741  100.000  H     = 1.11900E+01  O     = 8.88100E+01  B     = 0.00000E+00\
+ MOD     0.718   0.000E+00  577.0    0.000  100.000  H     = 1.11900E+01  O     = 8.88100E+01  B     = 0.00000E+00\
+ AIR     0.001   0.000E+00  577.0    0.000  100.000  O     = 1.00000E+02\
+ CAN     6.507   7.000E-06  603.8    5.335  100.000  Zr-2  = 1.00000E+02\
+ BOX     6.511   7.000E-06  577.0    0.000  100.000  Zr-2  = 1.00000E+02\
+ CRA     1.760   0.000E+00  577.0    0.000  100.000  B     = 7.82600E+01  C     = 2.17400E+01\
+ CRS     7.780   1.800E-05  577.0    0.000  100.000  SS    = 1.00000E+02\
+ CRC     7.780   1.800E-05  577.0    0.000  100.000  SS    = 1.00000E+02\
+ AIC     9.968   2.250E-05  577.0    0.000  100.000  Ag-107= 4.10880E+01  Ag-109= 3.89120E+01  In-113= 6.31500E-01\
+                                                     In-115= 1.43685E+01  Cd-106= 5.88850E-02  Cd-108= 4.27150E-02\
+                                                     Cd-110= 6.10565E-01  Cd-111= 6.31420E-01  Cd-112= 1.20104E+00\
+                                                     Cd-113= 6.13680E-01  Cd-114= 1.45556E+00  Cd-116= 3.86140E-01\
+ B4C     1.760   0.000E+00  577.0    0.000  100.000  B     = 7.82600E+01  C     = 2.17400E+01\
+ HAF    13.012   6.100E-06  577.0    0.000  100.016  Hf-174= 1.66000E-01  Hf-176= 5.13000E+00  Hf-177= 1.83500E+01\
+                                                     Hf-178= 2.71300E+01  Hf-179= 1.38400E+01  Hf-180= 3.54000E+01\
+ CSS     7.780   1.800E-05  577.0    0.000  100.000  SS    = 1.00000E+02\
+ BP1     2.254   3.300E-06  577.0    0.000  100.000  O     = 5.48100E+01  Si    = 3.78700E+01  B-10  = 7.10000E-01\
+                                                     Al    = 3.44000E+00  B-11  = 3.17000E+00\
+ BP2     3.636   4.500E-06  577.0    0.000   97.220  C     = 7.70000E-01  O     = 4.54000E+01  Al    = 5.10500E+01\
+ BP3     6.064   7.000E-06  577.0    0.000   80.000  Zr-2  = 8.00000E+01\
+ BP4     7.780   1.800E-05  577.0    0.000  100.000  SS    = 9.96200E+01  B-10  = 7.00000E-02  B-11  = 3.10000E-01\
+ CCT     2.380   1.000E-05  577.0    0.000  100.000  H     = 5.00000E-01  O     = 5.00000E+01  Al    = 8.00000E+00\
+                                                     Si    = 3.95000E+01  Fe    = 2.00000E+00\
+ FUE  1 10.238   1.100E-05  800.0   22.163  100.000  U-235 = 3.52604E+00  U-234 = 2.82083E-02  U-238 = 8.45967E+01\
+                                                     O     = 1.18491E+01\
+\
+ DENSITY FOR SPACER MATERIAL . . . . . . =  6.51109\
+ VOID PERCENTS IN WIDE AND NARROW GAP. . =  0.0  0.0\
+ NUMBER OF INTERNAL COMPOSITIONS DEFINED =    5\
+ REACTOR PRESSURE (IN PASCAL). . . . . . =  1.55000E+07\
+                  (IN PSI) . . . . . . . =  2.24812E+03\
+ NUCLIDES TREATED AS RESONANCE ABSORBERS = U-235  U-236  U-238  Pu-239 Pu-240 Pu-241 Pu-242 Er-167 \
+                                           Gd-155 Gd-156 Gd-157 Gd-158 Th-232 U-233  U-234  Gd155F \
+                                           Eu-153 Am-241 Am242m Gd156F Gd157F Gd158F Th-230 \
+                                           Hf-176 Hf-177 Hf-178 Hf-179 Hf-180 Ag-107 Ag-109 In-115 \
+                                           Rh-103 \
+ DEFAULT RADIAL DISTRIBUTION OF U-238 RESONANCE INTEGRAL\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      1 PAGE =       4  \
+ *  EX PIN.1\
+ * BURNUP =     0.000 V= 0.0  TF= 800.0  TM= 577.0  BOR=   0.0                                        \
+\
+         GEOMETRY SPECIFICATION        \
+\
+ NUMBER OF PINS ALONG SIDE OF ASSEMBLY . . =     2\
+ PIN PITCH . . . . . . . . . . . . . . . . =   1.0020 CM\
+ THICKNESS OF WATER GAP INSIDE BOX WALL. . =   0.0000 CM\
+ THICKNESS OF BOX WALL . . . . . . . . . . =   0.0000 CM\
+ THICKNESS OF HALF OF THE WIDE   WATER GAP =   0.0000 CM\
+ THICKNESS OF HALF OF THE NARROW WATER GAP =   0.0000 CM\
+ SEGMENT WIDTH                             =   2.0040 CM\
+ CALCULATION ON OCTANT ASSEMBLY (ISYM=8)\
+ NUMBER OF MICRO GROUP SPECTRA CALCULATIONS=  2 (INCLUDING THE AVERAGE PIN CELL)\
+ NUMBER OF MACRO GROUP SPECTRA CALCULATIONS=  1\
+\
+ BOUNDARY CONDITIONS IN 2D CALCULATION\
+   WEST:   MIRROR     SOUTH:  MIRROR    \
+   EAST:   MIRROR     NORTH:  MIRROR    \
+\
+ LAYOUT OF MICRO GROUP SPECTRA CALCULATION NUMBERS\
+    1\
+\
+\
+ PIN NUMBERS (INPUT/INTERNAL) AND TYPES\
+\
+    1\
+\
+\
+ NUMBER OF PIN TYPES (FULL ASSEMBLY):\
+       REGULAR FUEL PINS                         :    4\
+\
+       TOTAL                                     :    4\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      1 PAGE =       5  \
+ *  EX PIN.1\
+ * BURNUP =     0.000 V= 0.0  TF= 800.0  TM= 577.0  BOR=   0.0                                        \
+\
+ PIN CELL  COMPOSITIONS        DENSITIES (G/CM3)      VOLUMES (CM2 PER CM AXIALLY)        OCCUPANCY     TOT VOLUME    GEOMETRY\
+        1  FUE  CAN  COO      10.238   6.507   0.718  5.4120E-01  2.0496E-01  8.4613E-02     1.0        1.0040E+00    ROUND \
+           COO                 0.718                  1.7321E-01\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      1 PAGE =       6  \
+ *  EX PIN.1\
+ * BURNUP =     0.000 V= 0.0  TF= 800.0  TM= 577.0  BOR=   0.0                                        \
+\
+ MACRO REGION NUMBER MAP FOR PIN CELLS: \
+ 001\
+\
+ MICRO REGION NUMBER MAP FOR PIN CELLS: \
+    1-   4\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      1 PAGE =       7  \
+ *  EX PIN.1\
+ * BURNUP =     0.000 V= 0.0  TF= 800.0  TM= 577.0  BOR=   0.0                                        \
+\
+\
+ FUEL LOADING                      (ADJUSTED FOR THERMAL EXPANSION)     (NOT ADJUSTED FOR THERMAL EXPANSION)\
+ ------------                                  (G/CM)     (LB/CM)               (G/CM)     (LB/CM)\
+ FUEL    MASS              :                2.2163E+01  4.8860E-02            2.2286E+01  4.9132E-02\
+ METAL   MASS              :                1.9536E+01  4.3070E-02            1.9645E+01  4.3310E-02\
+ FISSILE MASS              :                7.8146E-01  1.7228E-03            7.8582E-01  1.7324E-03\
+\
+\
+ HYDRAULIC AND OTHER SEGMENT DATA (ADJUSTED FOR THERMAL EXPANSION)  \
+\
+    DENSITIES                                  (G/CM3)    (LB/FT3)  \
+    ------------\
+ AVERAGE FISSILE DENSITY   :                3.6099E-01  2.2536E+01\
+ BASE WATER DENSITY (15.50 MP  577.0 K):    7.1820E-01  4.4837E+01\
+ CHANNEL REL. WATER DENSITY:                1.0000E+00\
+ BYPASS  REL. WATER DENSITY:                1.0000E+00\
+ SEG.    REL. WATER DENSITY:                1.0000E+00\
+\
+    DIMENSIONS                                    (CM)    (INCHES)\
+    ----------\
+ AVERAGE FUEL PELLET DIAM. :                8.3010E-01  3.2681E-01\
+ AVERAGE FUEL ROD DIAM.    :                \cb2 9.7470E-01\cb1   3.8374E-01\
+ FUEL PIN PITCH            :                \cb2 1.0020E+00\cb1   3.9448E-01\
+ CHANNEL INSIDE WIDTH      :                2.0102E+00  7.9143E-01\
+ BUNDLE PITCH              :                2.0102E+00  7.9143E-01\
+ HEATED PERIMETER          :                1.2248E+01  4.8222E+00\
+ WET PERIMETER             :                1.2248E+01  4.8222E+00\
+ HYDRAULIC DIAM. CHANNEL   :                3.3679E-01  1.3259E-01\
+                                                                      VOLUME FRACTIONS VS:\
+   FLOW AREAS                                    (CM2)       (FT2)    SEGMENT    FLOW AREA\
+   ----------\
+ CHANNEL FLOW AREA (COO)   :                1.0313E+00  1.1101E-03    0.25680      1.00000\
+ WATER ROD(S) FLOW AREA (MOD)         :     0.0000E+00  0.0000E+00    0.00000      0.00000\
+ TOTAL FLOW  AREA          :                1.0313E+00  1.1101E-03    0.25680      1.00000\
+\
+   VOLUMES (PER CM AXIALLY)  \
+   -------\
+ FUEL PELLETS              :                2.1648E+00  2.3302E-03    0.53905      2.09913\
+ FUEL CLADDING             :                8.1986E-01  8.8250E-04    0.20415      0.79500\
+ TOTAL FLOW AREA           :                1.0313E+00  1.1101E-03    0.25680      1.00000\
+ OTHER COMPOSITIONS        :                0.0000E+00  0.0000E+00    0.00000      0.00000\
+ TOTAL SEGMENT             :                4.0159E+00  4.3227E-03    1.00000      3.89413\
+ WATER TO FUEL RATIO       :                4.7639E-01\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      1 PAGE =       8  \
+ *  EX PIN.1\
+ * BURNUP =     0.000 V= 0.0  TF= 800.0  TM= 577.0  BOR=   0.0                                        \
+\
+    MISCELLANEOUS OPTIONS   \
+ DANCOFF FACTORS ARE CALCULATED BY THE PROGRAM\
+ DANCOFF FACTORS: RATIO CHARACTERISTICS/FLURIG (GROUP INDEPENDENT)\
+ DEPLETION ACCORDING TO EXTENDED CHAINS\
+ FUND MODE WITH INPUT BUCKLING (IN CM-2) =  0.00000E+00\
+ CONSISTENT THERMAL D-COLLAPSE: ON\
+ DELAYED NEUTRON DATA: DEFAULT\
+ ADVANCED GD DEPLETION MODEL: ACTIVE\
+ POLAR ANGLE INTEGRATION: LEGENDRE\
+ PN SCATTERING ORDER:  0\
+ ASSEMBLY BULGE MODEL: OFF\
+ POWER DENSITY  IN W/gU      . . . . . . =  1.00000E-05\
+      -"-       IN KW/LITRE    . . . . . =  4.91136E-05\
+ THERMAL EXPANSION IS PERFORMED\
+\
+        EDIT OPTIONS \
+ NUMBER OF EDIT (AVE) REGIONS DEFINED     =  0\
+\
+ DETECTOR  NUCLIDE   POSITION  TYPE\
+        1  U-235       CENTER  FISSION   \
+        2  Rh-103      CENTER  ABSORPTION\
+ NUMBER OF FUEL REACTION RATES . . . . .  =  0\
+ PRINT LIST OPTIONS  ( LST )  . . . . . . = 1 1 0 0\
+\
+ *PUN*  ADDITIONAL OUTPUT TO THE CARD IMAGE FILE\
+ (10)=1 PINWISE EXPOSURE DISTRIBUTION (BLOCK EXP)\
+\
+ QUARTER ASSEMBLY DATA ARE NOT EDITED\
+ NUMBER OF REACTION RATE NUCLIDES  . . .  =  4\
+ NO CALCULATION OF CROSS-SECTIONS\
+ NO.  NUCLIDE  TEMPERATURE (K)\
+   1  U-235          293.6\
+   2  Rh-103         293.6\
+   3  1/V AB         293.6\
+   4  B              293.6\
+\
+ PARAMETERS FOR SIMULATE-3 ON SIM CARD\
+    SEGMENT TYPE NAME  . . . . =                                                                                \
+    WEIGHT PERCENT U-235 . . . =     4.000 (INITIAL HEAVY METAL)     4.000 (INITIAL TOTAL URANIUM)\
+    WEIGHT PERCENT OF BA . . . =     0.000\
+    PRESENT  NUMBER OF BA RODS =     0\
+    ORIGINAL NUMBER OF BA RODS =     0\
+    WEIGHT PERCENT OF PU . . . =     0.000 (INITIAL HEAVY METAL)\
+    WEIGHT PERCENT OF AM-241 . =     0.000 (INITIAL HEAVY METAL)\
+ RESTART FILE CREATED AT EXPOSURES LESS THAN OR EQUAL TO =  1000.000\
+ HIGHEST AND LOWEST ENERGY GROUP NUMBER IN FAST FLUENCE EDIT =   1   6\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      1 PAGE =       9  \
+ *  EX PIN.1\
+ * BURNUP =     0.000 V= 0.0  TF= 800.0  TM= 577.0  BOR=   0.0                                        \
+\
+ ENERGY GROUP STRUCTURES                                   BOUNDS\
+ - - - - - - - - - - - -                         - - - - - - - - - - - - - -\
+   MICRO   MACRO  EDIT-A  EDIT-B   2D  PDQ       UPPER      LOWER      WIDTH\
+   1-  1       1->     1       1    1    1    10.00000    6.06550    3.93450   MeV\
+   2-  2       2                               6.06550    3.67900    2.38650      \
+   3-  3       3                               3.67900    2.23100    1.44800      \
+   4-  4       4                               2.23100    1.35300    0.87800      \
+   5-  5       5                               1.35300    0.82100    0.53200      \
+   6-  6       6->             2    2        821.00000  500.00000  321.00000   keV\
+   7-  9       7                             500.00000  111.00000  389.00000      \
+  10- 14       8                             111.00000    9.11800  101.88200      \
+  15- 15       9                               9.11800    5.53000    3.58800      \
+  16- 21      10->             3    3          5.53000    0.14873    5.38127      \
+  22- 23      11                             148.73000   48.05200  100.67800    eV\
+  24- 24      12                              48.05200   27.70000   20.35200      \
+  25- 25      13                              27.70000   15.96800   11.73200      \
+  26- 26      14                              15.96800    9.87700    6.09100      \
+  27- 27      15                               9.87700    4.00000    5.87700      \
+  28- 28      16->                  4          4.00000    3.30000    0.70000      \
+  29- 29      17                               3.30000    2.60000    0.70000      \
+  30- 30      18                               2.60000    2.10000    0.50000      \
+  31- 31      19                               2.10000    1.85500    0.24500      \
+  32- 32      20                               1.85500    1.50000    0.35500      \
+  33- 33      21                               1.50000    1.30000    0.20000      \
+  34- 34      22                               1.30000    1.15000    0.15000      \
+  35- 36      23                               1.15000    1.09700    0.05300      \
+  37- 39      24                               1.09700    1.02000    0.07700      \
+  40- 41      25                               1.02000    0.97200    0.04800      \
+  42- 42      26                               0.97200    0.95000    0.02200      \
+  43- 44      27                               0.95000    0.85000    0.10000      \
+  45- 46      28                               0.85000    0.62500    0.22500      \
+  47- 49      29->     2       4    5    2     0.62500    0.35000    0.27500      \
+  50- 52      30                               0.35000    0.28000    0.07000      \
+  53- 54      31->                  6          0.28000    0.22000    0.06000      \
+  55- 55      32                               0.22000    0.18000    0.04000      \
+  56- 56      33                               0.18000    0.14000    0.04000      \
+  57- 57      34->                  7          0.14000    0.10000    0.04000      \
+  58- 58      35                               0.10000    0.08000    0.02000      \
+  59- 60      36                               0.08000    0.05800    0.02200      \
+  61- 62      37->                  8          0.05800    0.04200    0.01600      \
+  63- 64      38                               0.04200    0.03000    0.01200      \
+  65- 67      39                               0.03000    0.01500    0.01500      \
+  68- 70      40                               0.01500    0.00000    0.01500      \
+\
+ ECHO OF ACCURACY AND ITERATION PARAMETERS INPUT  \
+ ***********************************************\
+ ITERATION PARAMETERS FOR MICRO AND MACRO =  1.00000E-04  5.00000E-05    1.30    1.30   200    25\
+\
+ NUCLIDE NUMBER DENSITIES (IDENTICAL COMPOSITIONS ARE NOT REPEATED)\
+   (COMPOSITION NAME, MATERIAL NUMBER AND MACRO REGION NUMBER)\
+ FUE   1   1  U-235 = 9.24955E+20  U-234 = 7.43137E+18  U-238 = 2.19112E+22  O     = 4.56872E+22\
+ COO   4   1  H     = 4.80266E+22  O     = 2.40223E+22  B     = 0.00000E+00\
+ CAN   5   1  Zr-2  = 4.31542E+22\
+\
+ DANCOFF FACTOR MAP FOR RESONANCE GROUP 1\
+  0.331\
+\
+ K-INF FROM THE MICRO GROUP CALCULATIONS = 1.05520 (AVERAGE PIN CELL)   \
+   (SPECTRA CALCULATION NUMBER 1- 1)     = 1.05520\
+\
+ K-INF FROM THE MACRO GROUP CALCULATION  = 1.05529  TOTAL TIME OF MACRO GROUP SOLUTION =  0.00 CPU-SEC.   2 ITERS\
+\
+                                              West  South  East North Inner  Box CR(NW) CR(SE)\
+ MICRO MESHES FOR THE GAP REGIONS   . . . =     0     0     0     0     0     0     0     0\
+ MICRO MESHES IN COO REGIONS (BA AND ABSORBER RODS) = 2\
+ MICRO MESHES IN COO REGIONS (REGULAR FUEL PINS   ) = 2\
+\
+ ECHO OF ACCURACY AND ITERATION PARAMETERS INPUT  \
+ ***********************************************\
+ ITERATION PARAMETERS FOR 2D CALC. . .   =   100  1.00000E-05\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      1 PAGE =      10  \
+ *  EX PIN.1\
+ * BURNUP =     0.000 V= 0.0  TF= 800.0  TM= 577.0  BOR=   0.0                                        \
+\
+ C H A R A C T E R I S T I C S   S O L U T I O N --Statepoint:   1  Ave Exp:   0.000\
+\
+   ITER   EIGEN  DEL PCM      CPU      EPS-2D    EPS-SOURCE    EPS-FLUX    CMCO-DEV\
+   ----   -----  -------      ---    --------    ----------    --------    --------\
+     1  1.72977              0.00    1.000000      1.000000    1.000000    1.000000\
+     2  1.06031 -66946.2     0.00    0.040262      0.001663    0.000030    0.881340\
+     3  1.05857   -174.5     0.00    0.002530      0.000252    0.000046    0.000000\
+     4  1.05601   -255.4     0.00    0.001219      0.000055    0.000004    0.019176\
+     5  1.05594     -7.3     0.00    0.000044      0.000005    0.000001    0.000581\
+     6  1.05575    -18.7     0.00    0.000056      0.000001    0.000000    0.001027\
+     7  1.05586     11.1     0.00    0.000025      0.000002    0.000000    0.000522\
+     8  1.05586     -0.1     0.00    0.000002      0.000001    0.000000    0.000102\
+     9  1.05586     -0.4     0.00    0.000003      0.000002    0.000000    0.000053\
+ Total CPU (Sec)             0.00\
+ 2D k-infinity:  1.055857\
+ ******************************************************\
+ * 40 GROUP FUNDAMENTAL MODE:                         *\
+ * K-INF:  \cb2 1.055949\cb1    B2G: 0.0000000   M2:  69.402    *\
+ * K-EFF:  1.000000   B2G: 0.0008062   B2M: 0.0008062 *\
+ ******************************************************\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      1 PAGE =      11  \
+ *  EX PIN.1\
+ * BURNUP=   0.000  V= 0.0  TF= 800.0  TM= 577.0  BOR=   0.0  EFPH=     0  ECH=   0.000                                       \
+\
+          --------------------  C A S M O - 4     S U M M A R Y   ----------------------  \
+          BURNUP =    0.000 MWD/KG   K-INF =   1.05595   M2 =   69.40   B2 =   8.062E-04\
+          ------------------------------------------------------------------------------  \
+\
+  * POWER DISTRIBUTION    PEAK: LL = 1.000  (   0.0 W/CM),  HSF = 1.000  (    0.0 W/CM2)\
+  1.000*\
+\
+  * TWO GROUP DATA                                    K-INF XE, NO XE  1.05651     1.05651\
+    DIFF1   , DIFF2         1.1814E+00   5.3224E-01   M2     ",  "     7.2357E+01  7.2357E+01\
+    ABS1    , ABS2          1.3108E-02   1.3233E-01   XE2  MIC, MAC    8.7950E+05  4.7409E-19\
+    NUFISS1 , NUFISS2       1.0645E-02   2.4119E-01   SM2    ",  "     2.8492E+04  1.5358E-20\
+    REMOV1  , NU            4.1809E-03   2.4864E+00   BOR1   ",  "     6.1778E+00  1.5864E-24\
+    KAPPA   , XE-YIELD      3.2509E-11   6.5969E-02   BOR2   ",  "     3.4734E+02  8.9197E-23\
+\
+  * NEUTRON BALANCE            GROUP 1      GROUP 2        TOTAL\
+    FLUX  . . . . . . .     1.3651E+01   4.2992E-01   1.4081E+01\
+    ABSORPTION  . . . .     7.1858E-01   2.2846E-01   9.4705E-01\
+    FISSION . . . . . .     2.3130E-01   1.7090E-01   4.0219E-01\
+    NUFISSION . . . . .     5.8358E-01   4.1642E-01   1.0000E+00\
+    LEAKAGE . . . . . .     5.2212E-02   7.4080E-04   5.2953E-02\
+    OUTSCATTER  . . . .     2.3628E-01   7.0792E-03   2.4336E-01\
+    K-INF  (2-GROUP). .     6.1572E-01   4.4079E-01   1.0565E+00\
+    ETA*F, P  . . . . .     8.1212E-01   1.8227E+00   2.4183E-01\
+    INV VELOCITY  . . .     3.6286E-08   1.8743E-06\
+    FLUX RATIO:[DET/CELL]   1.0014E+00   9.5375E-01\
+\
+  * NEUTRON DETECTOR        1.3606E+13   GAMMA DET    0.0000E+00   PR LIFE TIME    8.3870E-06\
+    INTEGRATED ABS  . .     0.0000E+00   INT NUFISS   0.0000E+00   INT LEAKAGE     0.0000E+00\
+    FAST FLUENCE    . .     0.0000E+00   POWER (W/G)  1.0000E-05   NORM FACTOR     1.4942E+07\
+    CONV RATIO      . .     8.6435E-01   FISS/TOT U%  4.0000E+00   FISS/TOT PU%    0.0000E+00\
+    NEUT DET (ABS)  . .     2.6582E+09   GTIP(ABS)    0.0000E+00\
+\
+  * NUCLIDE  WT(%) HM       CAPTURE      FISSION      INT CAPT      INT FISS           MWD/KG\
+    U-234     0.0320        2.5508E-03   1.0861E-04   0.0000E+00   0.0000E+00           0.000 FER\
+    U-235     4.0000        1.1377E-01   3.4707E-01   0.0000E+00   0.0000E+00           0.000 FIS\
+    U-236     0.0000        0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00           0.000\
+    U-238    95.9680        3.9578E-01   5.5016E-02   0.0000E+00   0.0000E+00           0.000 FER\
+    Pu-238    0.0000        0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00           0.000 FER\
+    Pu-239    0.0000        0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00           0.000 FIS\
+    Pu-240    0.0000        0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00           0.000 FER\
+    Pu-241    0.0000        0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00           0.000 FIS\
+    Pu-242    0.0000        0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00           0.000\
+    Am-241    0.0000        0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00           0.000\
+    TOT  U   100.000        5.1210E-01   4.0219E-01   0.0000E+00   0.0000E+00           0.000\
+    TOT PU     0.000        0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00           0.000\
+    SUM      100.000\
+\
+  * NUCLIDE  WT(%) HM       CAPTURE      FISSION      INT CAPT      INT FISS           MWD/KG\
+    FISSILE    4.000        1.1377E-01   3.4707E-01   0.0000E+00   0.0000E+00           0.000\
+    FERTILE   96.000        3.9833E-01   5.5124E-02   0.0000E+00   0.0000E+00           0.000\
+    SUM      100.000\
+\
+  * DELAYED NEUTRON DECAY   0.0128  0.0318  0.1218  0.3241  1.4040  3.9550              TOTAL\
+                 YIELD*E3   0.2506  1.5517  1.4640  3.2550  1.2603  0.3233             8.1048\
+       EFFECTIVE YIELD*E3   0.2268  1.4018  1.3238  2.9421  1.1392  0.2923             7.3260\
+\
+1_______________________________________________________________________________________________________________________________\
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 **STUDSVIK** EXECUTED:2018/09/10 08:13:19 STATEPOINT =      2 PAGE =      12  \
+ *  EX PIN.1\
+ * BURNUP =     0.000 V= 0.0  TF= 800.0  TM= 577.0  BOR=   0.0                                        \
+ END                                                                                                                       INPUT\
+\
+ List of Errors/Warnings/Cautions/Notes Encountered\
+ Severity: (E):Error, (W):Warning, (C):Caution, (N):Note\
+ -------------------------------------------------------\
+ Routine   S  Text\
+ -------   -  ----\
+ EDTFTD    W  Non-default neutron data library is attached.\
+\
+   ** C A S M O - 4E SUMMARY **\
+\
+   EX PIN.1\
+   HVOI=  0.0 HTFU=  800.0 HTMO=  577.0 HTCO=  577.0 HBOR=    0.0\
+   NO VOID    TFU    TMO    TCO    BOR ROD   BURNUP   K-INF   K-INF     M2     PIN   U-235 FISS PU  TOT PU\
+                                             MWD/KG             TWO-GROUP     PEAK    WT %    WT %    WT %\
+    1  0.0  800.0  577.0  577.0    0.0        0.000 1.05595 1.05651  72.36   1.000   4.000   0.000   0.000  \
+\
+\
+ RUN TERMINATED.  1  WARNING(S) ENCOUNTERED\
+   0  FATAL ERROR(S),     1  WARNING(S)\
+   0  USAGE NOTE(S),      0  CAUTION(S)\
+\
+\
+                   Neutron Calculation                         \
+ Memory Use        Allocated       Used                         \
+ A Array            14000000    3578557\
+ B Array             4000000      15971\
+                    --------    -------\
+ Total Words        18000000    3594528\
+ Total Mwords           18.0        3.6\
+ Total Mbytes           72.0       14.4\
+\
+ Run Started     (Date,Time):  2018/09/10   08:13:19  \
+ Run Completed   (Date,Time):  2018/09/10   08:13:20  \
+ Total Wall Time Used       :               00:00:01\
+ Total CPU  Time Used       :               00:00:00   CPU Utilization:    0%\
+ Files:\
+ Input                      :  hmk1_p2_100.inp\
+ Output                     :  ./hmk1_p2_100.out\
+ Card Image                 :  ./hmk1_p2_100.cax\
+ *********************************\
+ *  CASMO-4E NORMAL TERMINATION  *\
+ *     -WARNINGS ENCOUNTERED-    *\
+ *********************************\
+}
