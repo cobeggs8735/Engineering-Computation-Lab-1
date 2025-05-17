@@ -24,4 +24,6 @@ This is a collection of Python functions for handling, analyzing, and plotting s
 - The file is meant for engineering/scientific students to automate data analysis and visualization tasks, especially those involving experimental data and result reporting.
 - Some functions prompt for user input (for example, choosing variables for interpolation), while others are designed for batch processing or plotting.
 
-
+## Exercise Files
+### Summary
+This folder is a collection of exercises to help students of the engineering course better develop their python programming skills by using fundamental programming concepts and computational programming. 
